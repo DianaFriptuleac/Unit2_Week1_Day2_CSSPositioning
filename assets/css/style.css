@@ -31,8 +31,8 @@ header {
   margin-bottom: 1.5em;
   padding: 2em 1.5em;
   position: sticky;
-  z-index: 2; 
-  top:0;
+  z-index: 2;
+  top: 0;
   width: 100%;
 
 }
@@ -53,7 +53,7 @@ header {
   header {
     text-align: left;
     margin: 0 auto;
-   
+
 
   }
 
@@ -133,12 +133,9 @@ section h2 {
   background-color: #a3a3a3;
   padding: 0px 0.8em;
   position: absolute;
-  top: -1.5em;  
+  top: -2.5em;
   margin-top: 1em;
-}
-
-.novita{
-  box-shadow:0px 4px 10px black;
+  box-shadow: 2px 2px 0px black
 }
 
 /*posizionare badge nel main article*/
@@ -148,13 +145,14 @@ main .imgLeft {
 
 /* ELEMENTI NEL MAIN - ARTICLE */
 
-.img_underline img{
- opacity: 0.6;
+.img_underline img {
+  opacity: 0.6;
 }
 
-main i{
+main i {
   opacity: 0.4;
 }
+
 h1 {
   font-size: 2.6rem;
   line-height: 1.2;
@@ -340,7 +338,7 @@ button {
   input {
     display: inline-block;
     width: 50%;
-    }
+  }
 }
 
 @media screen and (min-width: 700px) {
@@ -449,37 +447,83 @@ footer a {
     display: none;
   }
 }
-.arrow span{
+
+.arrow span {
   color: violet;
-  left: 0;
-  bottom: 0;
-  
-  
+}
 
-  }
-  .arrow{
-    position: fixed;
+.arrow {
+  position: fixed;
   right: 0;
-  top:500px;
-   background-color: #dcdbdb;
-    border-radius: 5px;
-    border:solid 2px white;
-    padding: 5px;
-    opacity: 0.8;
-  }
-
+  bottom:20px;
+  background-color: #dcdbdb;
+  border-radius: 10px;
+  border: solid 5px white;
+  padding: 5px;
+  opacity: 0.8;
+  height: 60px;
+  width: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.arrow a {
+  text-decoration:none;
+  color: inherit;
+}
+.arrow span{
+  font-size: 3em;
+}
+.icon-calendar{
+  position: fixed;
+  right: 0;
+  top:0;
+  background-color: #dcdbdb;
+  border-radius: 10px;
+  border: solid 5px white;
+  padding: 5px;
+  opacity: 0.8;
+  height: 60px;
+  width: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.icon-piu a, .icon-calendar a{
+  text-decoration:none;
+  color:inherit
+}
+.icon-piu{
+  position: fixed;
+  right: 0;
+  background-color: #dcdbdb;
+  border-radius: 10px;
+  border: solid 5px white;
+  padding: 5px;
+  opacity: 0.8;
+  height: 60px;
+  width: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.icone span{
+  color: #3f6bca;
+  font-size: 3em;
+}
 @media screen and (min-width: 576px) {
   .img_underline img {
     position: absolute;
     width: 100%;
-   
-}
-.img_underline{
-  position: relative;
-  margin-bottom: 1.5em;
-  bottom:0.6em;
-  z-index: 0;
-}
+
+  }
+
+  .img_underline {
+    position: relative;
+    margin-bottom: 1.5em;
+    bottom: 0.6em;
+    z-index: 0;
+  }
 
 
 }
@@ -501,10 +545,8 @@ footer a {
     left: 29em;
     width: 45%;
   }
-  h1{
+
+  h1 {
     z-index: 1;
   }
 }
-
-
-
