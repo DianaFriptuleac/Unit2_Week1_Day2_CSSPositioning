@@ -471,6 +471,39 @@ footer a {
 .arrow span{
   font-size: 3em;
 }
+.icon-piu{
+  position: fixed;
+  right: 0;
+  bottom: 11em;
+  background-color: #ede7e7;;
+  border-radius: 10px;
+  border: solid 2px white;
+  padding: 5px;
+  opacity: 0.8;
+  height: 60px;
+  width: 60px;
+  display: flex;
+  justify-content: center;
+}
+.icon-calendar{
+  position: fixed;
+  right: 0;
+  bottom:6em;
+  background-color: #ede7e7;;
+  border-radius: 10px;
+  border: solid 2px white;
+  padding: 5px;
+  opacity: 0.8;
+  height: 60px;
+  width: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.icone span{
+  color: #3f6bca;
+  font-size: 3em;
+}
 
 @media screen and (min-width: 576px) {
   .img_underline img {
@@ -490,13 +523,9 @@ footer a {
   section h2{
     top: -1.5em;
   }
-  .fast-tag{
-    position: relative;
-  }
   .fast-tag i {
-    position: absolute;
-    right: 0;
-    margin-left: 2em;
+    position: relative;
+    right: 3px;
   }
 
 
@@ -511,13 +540,14 @@ footer a {
 
   .img_underline img {
     position: relative;
-    left: 29em;
-    width: 45%;
+    left: 0em;
+    width: 55%;
 }
 .icon-piu{
   line-height: 1;
   position: fixed;
   right: 0;
+  top: 0;
   background-color: #ede7e7;;
   border-radius: 10px;
   border: solid 2px white;
@@ -532,7 +562,7 @@ footer a {
   line-height: 1;
   position: fixed;
   right:0;
-  top:0;
+  top:5em;
   background-color: #ede7e7;;
   border-radius: 10px;
   border: solid 2px white;
@@ -542,6 +572,7 @@ footer a {
   width: 60px;
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 .icon-piu a, .icon-calendar a{
   text-decoration:none;
@@ -559,6 +590,11 @@ footer a {
 section h2{
   top: -1.5em;
 }
+.fast-tag i {
+  position: relative;
+  right: 3px;
+}
+
 
 }
 
@@ -595,7 +631,7 @@ section h2{
   .icon-calendar{
     position: fixed;
     right: 0;
-    top:0;
+    top:5em;
     background-color: #ede7e7;;
     border-radius: 10px;
     border: solid 2px white;
@@ -623,5 +659,10 @@ section h2{
   section h2{
     top: -3.5em;
   }
+  .fast-tag i {
+    position: relative;
+    right: 3px;
+  }
+
   
 }
